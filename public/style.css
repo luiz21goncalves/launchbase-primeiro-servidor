@@ -20,11 +20,13 @@
   margin: 0;
   padding: 0;
   border: 0;
+  box-sizing: border-box;
 }
 
 body {
   font-family: 'Roboto', sans-serif;
   background: var(--foreground);
+  min-height: 100vh;
 }
 
 header, footer {
@@ -34,7 +36,7 @@ header, footer {
   width: 100%;
 }
 
-header a, footer a {
+header a {
   color: var(--foreground);
   text-decoration: none;
   margin: 0 30px;
@@ -49,6 +51,20 @@ header a:hover, footer a:hover {
 
 main {
   margin: 50px;
+  min-height: 55vh;
+}
+
+footer {
+  display: flex;
+  background: var(--background);
+  padding: 30px 100px;
+  width: 100%;
+  justify-content: space-between;
+}
+
+footer p {
+  display: flex;
+  color: var(--foreground);
 }
 
 
