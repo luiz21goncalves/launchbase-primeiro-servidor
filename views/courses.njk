@@ -17,15 +17,16 @@
       {% for course in courses %}
 
         <div class="card" id="{{ course.id }}">
-          <div class="card-content">
+          <div class="card-image">
             <img src="{{ course.img_url }}" alt="logo de {{ course.name }}">
-            <h3>{{ course.name }}</h3>
           </div>
+
           <div class="card-info">
             <P>{{ course.module }}</P>
-          <div class="card-price">
-            <p>{{ course.price }}</p>
-          </div>
+
+            <div class="card-price">
+              <p>{{ course.price }}</p>
+            </div>
           </div>
         </div>
 

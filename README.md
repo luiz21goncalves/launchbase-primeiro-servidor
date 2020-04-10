@@ -8,60 +8,25 @@
 
 <blockquote align="center">“A recompensa do estudo é a compreensão.”</blockquote>
 
-<p align="center">
-
-  <a href="https://rocketseat.com.br">
-    <img alt="Made by Rocketseat" src="https://img.shields.io/badge/made%20by-Rocketseat-%23F8952D">
-  </a>
-
-  <a href="LICENSE" >
-    <img alt="License" src="https://img.shields.io/badge/license-MIT-%23F8952D">
-  </a>
-
-</p>
-
-<p align="center">
-  <a href="#rocket-sobre-o-desafio">Sobre o desafio</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
-  <a href="#calendar-entrega">Entrega</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
-  <a href="#memo-licença">Licença</a>
-</p>
-
 ## :rocket: Sobre o desafio
 
-Nesse desafio você deve criar um servidor que tenha duas rotas que devem retornar o conteúdo dos html gerados no desafio 2-3 (páginas de `Cursos` e `Sobre`). Além disso, deve ser implementando um arquivo padrão (layout.njk) que reaproveite o código em comum entre esses dois e também um arquivo que sirva uma página de erro 404.
+Nesse desafio foi porposto criar um servidor que tenha duas rotas que devem retornar o conteúdo dos html gerados anteriormente (páginas de `Cursos` e `Sobre`). Além disso, foi implementando um arquivo padrão (layout.njk) que reaprovitando o código em comum entre as páginas e também de página de erro.
 
-_Erro 404 é comum aparecer em páginas da internet, quando não foi encontrado nenhum conteúdo._
 
-### Arquivos HTML
+## Estilização
 
-- `courses.njk`: Arquivo referente à pagina de conteúdos, deve ser servido na rota raiz.
-- `about.njk`: Arquivo referente à pagina de descrição, deve ser servido na rota /about.
-- `layout.njk`: Arquivo referente à base comum entre as páginas.
-- `not-found.njk`: Arquivo referente à pagina de erro 404, deve ser servido quando for realizada uma requisição à uma página que não existe. Esse arquivo deve ter:
+A paleta de cores usada é a mesma no tema `Dracula`. Para posicionamento foi utilizado flex box.
 
-  - Layout.njk como base
-  - Ter um texto infortivo sobre o erro
 
-  Dica: Para capturar essas requisições, basta adicionar esse trecho após **todas** as rotas no seu `server.js`:
+### Página princiapal
 
-```js
-server.use(function(req, res) {
-  res.status(404).render("not-found");
-});
-```
+![Captura de tela de 2020-04-09 21-00-28](https://user-images.githubusercontent.com/59892313/78951060-22313a00-7aa7-11ea-8633-9353f856cef4.png)
 
-### Estilização
 
-Você tem liberdade para escolher a estilização que preferir para esse desafio.
+### Listagem de cursos
 
-## :calendar: Entrega
+![Captura de tela de 2020-04-09 21-01-21](https://user-images.githubusercontent.com/59892313/78951062-22c9d080-7aa7-11ea-90e2-544fd89075b2.png)
 
-Esse desafio **não precisa ser entregue** e não receberá correção. Após concluí-lo, adicionar esse código ao seu Github é uma boa forma de demonstrar seus conhecimentos para oportunidades futuras.
+### Detalhe do curso
 
-## :memo: Licença
-
-Esse projeto está sob a licença MIT. Veja o arquivo [LICENSE](../LICENSE) para mais detalhes.
-
----
-
-Feito com :purple_heart: by [Rocketseat](https://rocketseat.com.br) :wave: [Entre na nossa comunidade!](https://discordapp.com/invite/gCRAFhc)
+![Captura de tela de 2020-04-09 21-02-02](https://user-images.githubusercontent.com/59892313/78951064-23626700-7aa7-11ea-80b8-78cb78fd4446.png)
