@@ -16,19 +16,25 @@ Nesse desafio foi proposto criar um servidor que tenha duas rotas que devem reto
 
 A paleta de cores usada é a mesma no tema `Dracula`. Para posicionamento foi utilizado flex box.
 
-### Página principal
+
+
+## Página principal
 
 ![Captura de tela de 2020-04-09 21-00-28](https://user-images.githubusercontent.com/59892313/78951060-22313a00-7aa7-11ea-8633-9353f856cef4.png)
 
-### Listagem de cursos
+
+
+## Listagem de cursos
 
 ![Captura de tela de 2020-04-09 21-01-21](https://user-images.githubusercontent.com/59892313/78951062-22c9d080-7aa7-11ea-90e2-544fd89075b2.png)
 
-### Detalhe do curso
+
+
+## Detalhe do curso
 
 ![Captura de tela de 2020-04-09 21-02-02](https://user-images.githubusercontent.com/59892313/78951064-23626700-7aa7-11ea-80b8-78cb78fd4446.png)
 
 
-### Página de erro
+## Página de erro
 
 ![Captura de tela de 2020-04-09 21-20-29](https://user-images.githubusercontent.com/59892313/78951293-04180980-7aa8-11ea-800e-331c80115335.png)
